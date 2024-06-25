@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment"
+    android:id="@+id/ThirdFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/sp_20">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_page"
+        android:textSize="@dimen/sp_30"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/baseline_account_circle_24"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/sp_30"
+        android:textSize="@dimen/sp_30"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/sp_20"
+            android:layout_marginTop="@dimen/sp_30"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_20"
+            android:layout_marginTop="@dimen/sp_30"
+            android:layout_marginLeft="@dimen/sp_40"/>
+    </LinearLayout>
+
+</LinearLayout>

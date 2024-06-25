@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/FirstFragment"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_details"
+        android:textSize="@dimen/sp_50"
+        android:textAlignment="center"
+        android:id="@+id/detail"
+        android:drawableTop="@drawable/baseline_account_circle_24"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sp_50"
+        android:textAlignment="center"
+        android:text="@string/hello"
+        android:textSize="@dimen/sp_100"
+        android:textStyle="bold" />
+
+</LinearLayout>

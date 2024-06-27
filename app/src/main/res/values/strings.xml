@@ -17,4 +17,7 @@
     <string name="password">Password</string>
     <string name="login_page">Login Page</string>
     <string name="cancel">Cancel</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
 </resources>

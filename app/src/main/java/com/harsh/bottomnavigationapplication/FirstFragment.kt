@@ -21,8 +21,8 @@ class FirstFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-    var binding : FragmentFirstBinding ?= null
-    var mainActivity :MainActivity ?= null
+    var binding: FragmentFirstBinding? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -39,7 +39,7 @@ class FirstFragment : Fragment() {
         binding = FragmentFirstBinding.inflate(layoutInflater)
         return binding?.root
         // Inflate the layout for this fragment
-       // return inflater.inflate(R.layout.fragment_first, container, false)
+        // return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
     companion object {
